@@ -1,0 +1,114 @@
+input {
+    display: block;
+    width: 20%;
+    padding: 8px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    background: #676c88;
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body {
+    background-image: url("../../images/background.png");
+    background-attachment: fixed; /* This makes the background stay fixed while scrolling */
+    background-position: center; /* Optional: Center the image */
+    background-size: cover; /* Optional: Make sure the image covers the whole page */
+    background-repeat: no-repeat;
+}
+.container {
+    display: inline-block;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+}
+h2 {
+    color: #217c25;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+h1 {
+    color: #217c25;
+    display: inline-block;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    word-wrap: break-word;
+    width: 1000px;
+}
+a {
+    display: block;
+    margin: 12px 0;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+a:hover {
+    background-color: #0056b3;
+}
+a:focus {
+    outline: none;
+}
+.btn-register {
+    background-color: #28a745;
+}
+
+.options {
+    background-color: #28a745;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 100px;
+    justify-self: center;
+    font-size: 1.1em;
+    color: white;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-register:hover {
+    background-color: #218838;
+}
+
+.button {
+    background-color: #218838; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+label {
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    color: #b5b4b2;
+}
